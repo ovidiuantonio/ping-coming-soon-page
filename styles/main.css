@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 40%;
+}
+
+@media only screen and (min-width: 1900px) {
+  html {
+    font-size: 48%;
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  html {
+    font-size: 56%;
+  }
+}
+
+@media only screen and (min-width: 2400px) {
+  html {
+    font-size: 64%;
+  }
+}
+
+@media only screen and (min-width: 2600px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+@media only screen and (min-width: 4000px) {
+  html {
+    font-size: 130%;
+  }
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.heading-primary {
+  font-size: 5rem;
+  font-weight: 300;
+  padding-bottom: 2rem;
+  color: #969696;
+}
+
+.heading-primary-bold {
+  font-weight: 700;
+  color: black;
+}
+
+.paragraph {
+  font-size: 2rem;
+  font-weight: 300;
+  color: black;
+  padding-bottom: 5rem;
+}
+
+.footer {
+  font-size: 2rem;
+  color: rgba(150, 150, 150, 0.5);
+}
+
+.content {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  padding: 8rem 0;
+}
+
+.content__logo {
+  width: 12rem;
+  height: auto;
+  padding-bottom: 5rem;
+}
+
+.content__dashboard {
+  max-width: 90%;
+  height: auto;
+  padding: 5rem 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .content {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    width: 90%;
+  }
+}
+
+.form {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 900px) {
+  .form {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.form__label {
+  position: absolute;
+  bottom: 0;
+  left: 7%;
+  font-size: 1.5rem;
+  color: #c2d3ff;
+  -webkit-transform: translateY(3rem);
+          transform: translateY(3rem);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.form__input {
+  width: 65%;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #c2d3ff;
+  border: 1px solid #c2d3ff;
+  border-radius: 5rem;
+  padding: 2rem 4rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .form__input {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+}
+
+.form__input:invalid {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form__btn {
+  width: 25%;
+  padding: 2rem 4rem;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  color: white;
+  background-color: #4f7df3;
+  border: 0;
+  border-radius: 5rem;
+  -webkit-box-shadow: 0 1rem 2rem rgba(79, 125, 243, 0.2);
+          box-shadow: 0 1rem 2rem rgba(79, 125, 243, 0.2);
+}
+
+@media only screen and (max-width: 900px) {
+  .form__btn {
+    display: block;
+    width: 100%;
+  }
+}
+
+.social {
+  width: 20%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 3rem;
+}
+
+.social-icon-area {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.social-icon-area-icon {
+  font-size: 2rem;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  color: #4f7df3;
+}
+
+.social-icon-area:hover {
+  -webkit-transform: scale(1.1) translateY(-0.5rem);
+          transform: scale(1.1) translateY(-0.5rem);
+}
+
+@media only screen and (max-width: 600px) {
+  .social {
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

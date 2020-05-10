@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <div class="content">
+      <img src="images/logo.svg" alt="ping-logo" class="content__logo" />
+
+      <h1 class="heading-primary">
+        We are launching <span class="heading-primary-bold">soon!</span>
+      </h1>
+      <p class="paragraph">Subscribe and get notified</p>
+
+      <form action="/" class="form">
+        <input
+          type="email"
+          class="form__input"
+          name="email"
+          placeholder="Your Email Address"
+        />
+        <label for="email" class="form__label">Your Email Address</label>
+        <button class="form__btn">Notify Me</button>
+      </form>
+
+      <img
+        src="images/illustration-dashboard.png"
+        alt="dashboard"
+        class="content__dashboard"
+      />
+
+      <div class="social">
+        <div class="social-icon-area">
+          <i class="fab fa-facebook-f social-icon-area-icon"></i>
+        </div>
+        <div class="social-icon-area">
+          <i class="fab fa-twitter social-icon-area-icon"></i>
+        </div>
+        <div class="social-icon-area">
+          <i class="fas fa-globe social-icon-area-icon"></i>
+        </div>
+      </div>
+
+      <footer>
+        <p class="footer">&copy; Copyright Ping. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+      integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
