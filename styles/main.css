@@ -183,7 +183,7 @@ body {
 
 @media only screen and (max-width: 900px) {
   .form__label {
-    opacity: 0;
+    display: none;
   }
 }
 
