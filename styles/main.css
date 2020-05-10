@@ -181,6 +181,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 900px) {
+  .form__label {
+    opacity: 0;
+  }
+}
+
 .social {
   width: 20%;
   margin: 0 auto;
